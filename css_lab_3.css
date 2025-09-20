@@ -1,0 +1,68 @@
+body {
+    background-color: bisque;
+    font-family: sans-serif;
+}
+
+.header-and-footer{
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    clear: both;
+}
+.game{
+    background-color: aquamarine;
+    float: left;
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 5px;
+
+}
+#main-nav{
+    background-color: blue;
+}
+
+#main-nav li {
+  display: inline-block;
+  position: relative;
+
+}
+
+#main-nav ul{ 
+    padding: 5px;
+    margin-left: 50px;
+}
+#main-nav ul a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+#main-nav ul a:hover{
+    background-color:brown
+}
+
+#sidebar {
+  background-color: lightblue;
+  float: right;
+  width: 25%;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  margin-right: 5px;
+}
+#sidebar:hover{
+    background-color: brown;
+}
+.main-content{
+    margin: 5px;
+    width: 100%;
+    padding-bottom: 285px;
+}
+#name:focus{
+  width: 300px;
+}
